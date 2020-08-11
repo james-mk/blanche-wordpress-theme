@@ -1,0 +1,363 @@
+/*
+
+Additional styling is also found in the customizer-style.php(/inc/customizer/customizer-style.php) file for button, link and other elements
+
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*****************SECTIONS*************************/
+
+.jumbotron{
+    position: relative;
+   
+}
+
+#services_section,
+#contact_section,
+#cta_section,
+#hero-section,
+#about_section{
+position: relative;
+}
+
+#about-card{
+    position: relative;
+   border: none;
+    border-radius:0 !important;
+    z-index: 1;
+ 
+}
+
+.service-card{
+    opacity: .7;
+}
+
+.cta-container,
+.section-lead,
+.section-header,
+.hero-text,
+.service-card{
+    position: relative;
+    z-index: 1 !important;
+}
+
+#services_section{
+    margin-top: -70px;
+}
+
+
+#contact-section{
+    padding: 20px;
+}
+
+.teampic{
+   
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.wrapper{
+    margin: 0 auto;
+}
+
+.section-padding{
+    padding: 20px 0; 
+}
+
+.testimonial-carousel{
+    margin: 5% auto 0;
+}
+
+.img-area{
+    overflow: hidden;
+    margin: 0 auto;
+    width:100%;
+    height: 100%;
+}
+
+.single-testi{
+    background: #fff;
+    padding: 10%;
+    text-align: center;
+    border-radius: 100px 0 100px 0;
+}
+
+.img-text h5{
+    text-transform: uppercase;
+    margin: 20px 0 -15px;
+    color: purple;
+}
+
+.owl-dots{
+    text-align: center;
+}
+
+.owl-dot{
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: slategray;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin: 50px 5px 0;
+}
+
+.owl-dot.active{
+    background-color: purple; 
+}
+
+
+
+
+
+
+/*
+#team-card{
+    position: relative;
+    border-radius: 0;
+}
+
+
+.team-title{
+    font-weight: 600;
+}
+.team-text{
+    font-weight: 500;
+}
+
+.dots{
+    color: black;
+    font-size: 16px;
+    display: inline;
+}
+*/
+
+/*********************BUTTONS************************/
+.btn,#searchsubmit{
+    border: none;
+    border-radius: 0;
+}
+
+
+/****************CONTACT FORM********************/
+form.wpcf7-form p {
+    color: blue;
+}
+.wpcf7-submit,{
+    padding: 10px 10px !important;
+    border:none;
+    width: 50%;
+}
+.wpcf7-form-control{
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    background-color: #ccc;
+    padding: 5px;
+ 
+}
+input.wpcf7-form-control,
+textarea.wpcf7-form-control{
+    color:#292929 ;
+}
+.fa {
+    margin-left: 15px;
+}
+
+
+#searchsubmit{
+    padding: 0px 5px;
+}
+
+label.screen-reader-text{
+    display: none;
+}
+
+.contact-info,
+.contact-form{
+    opacity: .7;
+    z-index:1; 
+}
+
+/*************************COMMENTS**********************************/
+.comment{
+    padding: 10px 30px;
+    margin: 10px 20px;
+
+}
+#comments{
+    padding: 30px;
+ 
+}
+.comment-content a {
+	word-wrap: break-word;
+   
+}
+
+.comment-form-comment{
+    border: none;
+}
+.comments-title{
+    color: purple !important;
+    font-weight: 600;
+}
+
+#reply-title{
+    margin-top: 50px;
+    width: 100%;
+    color: purple !important;
+    position: relative;
+    font-weight: 600;
+    
+}
+.comment-form{
+  border: none;
+
+}
+textarea.comment{
+    width: 100%;
+    border: none !important;
+}
+label[for="comment"]{
+    display: none;
+}
+#submit{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: purple;
+    border:none;
+}
+
+.odd{
+    margin-right: 50px;
+}
+.comment-list li a,
+.logged-in-as a{
+    color: deeppink!important;
+}
+.logged-in-as a:hover{
+    color: blue !important;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+
+/****************CONTENT AND SIDEBAR BACKGROUND********************/
+
+.blog-content{
+
+    box-shadow: 3px 3px 10px #cccccc;
+    background-color: #ffffff;
+}
+.sidebar{
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px #cccccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+div.sidebar ul li{
+    list-style-type: none;
+}
+
+/****************TESTIMONIALS********************/
+.timage{
+    height: 200px;
+    width:200px;
+}
+
+
+.fa{
+    
+}
+
+/****************FOOTER SECTION********************/
+
+
+footer a {
+    color: #fff;
+}
+
+footer a:active,
+footer a:focus,
+footer a:hover {
+    color: #f57c00;
+    text-decoration: none;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-copyright ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.footer-copyright ul li:after {
+    content: " | ";
+}
+
+.footer-copyright ul li:last-child:after {
+    content: " ";
+}
+
+.primary-header {
+    background-color: #ccc;
+}
+
+.footer-copyright {
+    color: aliceblue;
+}
+
+
+.footer-sidebar li {
+    list-style-type: none;
+}
+
+
+/************************RESPONSIVE MEDIA QUERIES*******************/
+@media(max-width: 768px) {
+
+    #about_section{
+        margin-top: -50px !important;
+    }
+    #about-card{
+        border-radius: 0 !important;
+    }
+    .service-card{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    #services_section{
+    margin-top: -50px;
+}
+    .hero-text{
+        font-size: 40px;
+    }
+    .hero_lead{
+        font-size: 18px;
+    }
+    
+    .wrapper{
+        width: 100%;
+    }
+    
+    
+	}
+}
